@@ -1,0 +1,42 @@
+ModalApp {
+    align: center middle;
+}
+
+Label{
+    text-align: center;
+    width: 100%;
+}
+
+#main{
+    grid-size: 2;
+    grid-gutter: 1 2;
+    grid-columns: 75fr 25fr;
+    grid-rows: 15fr 85fr;
+    padding: 1 1;
+}
+
+#scanner{
+    grid-rows: 40fr 60fr;
+}
+
+#MainTitle{
+    text-style: bold;
+    
+}
+
+DataTable{
+    column-span: 2;
+    text-align: left;
+    width: auto;
+}
+
+DataTable > .datatable--header {
+    background: #008000;  /* Fond vert */
+    color: white;         /* Texte blanc */
+    text-align: center;
+
+}
+
+Input:focus{
+    border:tall #90EE90;
+}

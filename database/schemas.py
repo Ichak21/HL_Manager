@@ -12,5 +12,5 @@ class RM6Create(RM6Base):
     pass;
 
 class RM6(RM6Base):
+    id: int
     date_out: datetime
-    pass;

@@ -1,0 +1,63 @@
+{
+    "settings": {
+      "causes": [
+        {
+          "id": 1,
+          "name": "Missing Part",
+          "color": "#68AFDD",
+          "description": "Il manque une pieces pour produire."
+        },
+        {
+          "id": 2,
+          "name": "Demande Expertise",
+          "color": "#DAC73D",
+          "description": "Faire intervenir les AQPPs"
+        },
+        {
+          "id": 3,
+          "name": "Autre",
+          "color": "#DAC73D",
+          "description": "Troisième cause de l'incident"
+        }
+      ],
+      "storage": [
+        {
+          "id": 1,
+          "secteur": "S1",
+          "area": "1-Mezanine",
+          "limit": 5
+        },
+        {
+          "id": 2,
+          "secteur": "S1",
+          "area": "2-Hellium",
+          "limit": 5
+        },
+        {
+          "id": 3,
+          "secteur": "S1",
+          "area": "3-Control HT",
+          "limit": 5
+        },
+        {
+          "id": 4,
+          "secteur": "S2",
+          "area": "4-EQF2",
+          "limit": 5
+        },
+        {
+          "id": 5,
+          "secteur": "S2",
+          "area": "5-EQF3",
+          "limit": 5
+        },
+        {
+          "id": 6,
+          "secteur": "SAda",
+          "area": "6-BT Adapt",
+          "limit": 5
+        }
+      ]
+    }
+  }
+  

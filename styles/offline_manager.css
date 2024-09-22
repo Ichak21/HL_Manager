@@ -1,0 +1,34 @@
+Head_Display{
+    layout: horizontal;
+    background: rgb(39, 240, 156);
+    height: 50%;
+}
+OffLine_ManagerApp{
+    background: rgb(166, 39, 240);
+    width: 50%;
+    height: 50%;
+}
+
+Input{
+    background:rgb(166, 39, 240);
+    width: 10%;
+}
+
+MyProgressBar{
+    layout: horizontal;
+}
+
+AreaProgressBars_Display{
+    layout: vertical;
+
+    text-align: left;
+}
+
+.bar_label{
+    width: 40%;
+    text-align: right;
+}
+
+.bars{
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,15 @@
+{
+    "configuration_locale": {
+      "machine": {
+        "id": 1,
+        "nom": "This-Machine",
+        "adresse_ip": "192.168.1.10",
+        "systeme_exploitation": "Linux",
+        "storage": {
+          "id": 1,
+          "type": "Local",
+          "path": "/local/storage/this_machine"
+        }
+      }
+    }
+  }
